@@ -3,7 +3,7 @@ Android module which tracks text view changes using an accessibility service and
 
 ## Information
 
-Open accessibility activity (prompt user to enable the service)
+Open accessibility activity (in order to prompt user to enable the service)
 ```java
 startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
 ```
