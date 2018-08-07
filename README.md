@@ -40,13 +40,13 @@ if (realm != null && !realm.isClosed()) {
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <service android:name=".module.accessibility.service.AccessibilityService"
-      android:label="@string/service"
-      android:description="@string/additional_service"
-      android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
-      <intent-filter>
-          <action android:name="android.accessibilityservice.AccessibilityService" />
-      </intent-filter>
-  </service>
+        android:label="@string/service"
+        android:description="@string/additional_service"
+        android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+        <intent-filter>
+            <action android:name="android.accessibilityservice.AccessibilityService" />
+        </intent-filter>
+    </service>
 </manifest>
 
 ## License
